@@ -15,7 +15,7 @@ let g:colors_name='darcula'
 
 let s:p={
       \ 'null': ['NONE', 'NONE'],
-      \ 'bg': ['#2B2B2B', 235],
+      \ 'bg': ['#2B2B2B', 236],
       \ 'fg': ['#A9B7C6', 145],
       \ 'cursor': ['#BBBBBB', 250],
       \ 'identifierUnderCaret': ['#344134', 237],
@@ -38,12 +38,12 @@ let s:p={
       \ 'incSearch': ['#155221', 22],
       \ 'foldedFg': ['#8C8C8C', 245],
       \ 'foldedBg': ['#3A3A3A', 237],
-      \ 'constant': ['#9876AA', 103],
+      \ 'constant': ['#9876AA', 172],
       \ 'keyword': ['#CC7832', 172],
       \ 'comment': ['#808080', 244],
       \ 'docComment': ['#629755', 65],
-      \ 'string': ['#6A8759', 101],
-      \ 'number': ['#6897BB', 103],
+      \ 'string': ['#6A8759', 65],
+      \ 'number': ['#6897BB', 110],
       \ 'delimiter': ['#CC7832', 172],
       \ 'specialComment': ['#8A653B', 95],
       \ 'function': ['#FFC66D', 216],
@@ -212,7 +212,7 @@ hi! link Type Keyword
 call s:Hi('Typedef', s:p.typeDef)
 call s:Hi('Todo', s:p.todo, s:p.null, 'italic')
 hi! link Special PreProc
-call s:Hi('Constant', s:p.constant, s:p.null, 'italic')
+call s:Hi('Constant', s:p.bg, s:p.constant, 'italic')
 call s:Hi('String', s:p.string)
 hi! link Character String
 call s:Hi('Number', s:p.number)
