@@ -88,7 +88,7 @@ let s:p={
       \ 'duplicateFromServer': ['#5E5339', 59],
       \ 'hintBg': ['#3B3B3B', 237],
       \ 'hintFg': ['#787878', 243],
-      \ 'wrapGuide': ['#2F2F2F', 236],
+      \ 'wrapGuide': ['#2F2F2F', 237],
       \ 'UIBorder': ['#616161', 241],
       \ 'UISelection': ['#0D293E', 17],
       \ 'ANSIBlack': ['#FFFFFF', 231],
