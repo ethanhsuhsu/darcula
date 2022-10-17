@@ -55,7 +55,7 @@ let s:p={
       \ 'stripeWhiteSpace': ['#4C4638', 59],
       \ 'changeStripe': ['#374752', 60],
       \ 'deleteStripe': ['#656E76', 242],
-      \ 'typo': ['#659C6B', 72],
+      \ 'typo': ['#BC3F3C', 131],
       \ 'metaData': ['#BBB529', 142],
       \ 'macroName': ['#908B25', 100],
       \ 'cDataStructure': ['#B5B6E3', 146],
